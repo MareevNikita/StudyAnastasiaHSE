@@ -1,0 +1,13 @@
+cur = int(input())
+max1 = cur
+maxx = max1
+cnt = 1
+while(cur >= 0):
+	cur=int(input())
+if cur ==maxx:
+		cnt +=1
+	elif maxx<cur:
+		cnt = 0
+		cnt+=1
+		maxx = cur
+print(cnt)
